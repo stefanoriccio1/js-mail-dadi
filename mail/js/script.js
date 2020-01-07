@@ -8,7 +8,7 @@ var emailUtente = prompt('Per accedere devi verificare la tua email');
 
 var listaEmail = ['stefano@tiscali.it', 'andrea@tiscali.it', 'giovanni@tiscali.it', 'lucia@tiscali.it', 'marco@tiscali.it', 'matteo@tiscali.it', 'giacomo@tiscali.it'];
 // console.log(listaEmail);
-var nonTrovata = alert ('email non trovata')
+var nonTrovata = alert ('email non trovata');
 for (var i = 0; i < listaEmail.length; i++) {
  // console.log(listaEmail[i]);
  var emailVerifica = listaEmail[i];
