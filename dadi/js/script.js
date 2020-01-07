@@ -2,12 +2,12 @@
 
 // Richiedere agli utenti un numero da 1 a 10, chi fa il più alto vince
 
-var giocatore1 = prompt('Per partecipare scrivi il tuo nome');
+var giocatore1 = prompt('Per tirare il dado scrivi il tuo nome');
 console.log (giocatore1);
 var dado1 = (Math.floor(Math.random() * 6) +1);
 console.log(giocatore1 + ' Hai fatto ' + dado1);
 
-var giocatore2 = prompt('Abbiamo bisogno anche del tuo :)');
+var giocatore2 = prompt('Sfidante, scrivi il tuo nome per tirare il tuo dado');
 console.log (giocatore2);
 var dado2 = (Math.floor(Math.random() * 6) +1);
 console.log(giocatore2 + ' Hai fatto ' + dado2);
@@ -23,4 +23,5 @@ else if (dado2 > dado1){
 }
 else {
   console.log('Patta, dovete tirare ancora!');
+  alert ('Wow '+ giocatore1 + giocatore2 + ' ! avete pattato! Dovete tirare ancora')
 }
